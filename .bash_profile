@@ -9,3 +9,4 @@ alias ssh="/usr/local/Cellar/openssh/7.6p1/bin/ssh"
 
 export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 export PS1="[\u@$(hostname -f) \W]\$"
+free -g
